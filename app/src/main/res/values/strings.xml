@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Jaga Sehat Leukimia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kontak">KontakActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_name">081234567890</string>
+
+    <string-array name="name_person">
+        <item>Kontak 1</item>
+        <item>Kontak 2</item>
+        <item>Kontak 3</item>
+        <item>Kontak 4</item>
+        <item>Kontak 5</item>
+        <item>Kontak 6</item>
+        <item>Kontak 7</item>
+    </string-array>
+
+    <array name="pics">
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+        <item>@drawable/orang</item>
+    </array>
+
+    <string-array name="number">
+        <item>081234567890</item>
+        <item>081234567890</item>
+        <item>081234567890</item>
+        <item>081234567890</item>
+        <item>081234567890</item>
+        <item>081234567890</item>
+        <item>081234567890</item>
+    </string-array>
+
+    <array name="call">
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+        <item>@drawable/call</item>
+    </array>
+</resources>

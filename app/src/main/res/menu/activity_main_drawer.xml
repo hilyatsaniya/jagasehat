@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pg1"
+            android:icon="@drawable/burung"
+            android:title="Halaman 1" />
+        <item
+            android:id="@+id/nav_pg2"
+            android:icon="@drawable/gajah"
+            android:title="Halaman 2" />
+        <item
+            android:id="@+id/nav_pg3"
+            android:icon="@drawable/aku"
+            android:title="Halaman 3" />
+        <item
+            android:id="@+id/nav_pg4"
+            android:icon="@drawable/aku"
+            android:title="Halaman 4" />
+
+    </group>
+
+    <item android:title="Additional">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/kontak"
+                android:title="Kontak" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>

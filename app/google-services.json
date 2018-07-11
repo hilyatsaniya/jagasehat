@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "227516408826",
+    "firebase_url": "https://jagasehatnavbar.firebaseio.com",
+    "project_id": "jagasehatnavbar",
+    "storage_bucket": "jagasehatnavbar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227516408826:android:a7740274e64b0677",
+        "android_client_info": {
+          "package_name": "com.example.misara.jagasehatnavbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227516408826-hpn24bpa8eucbtkrh826tq5dvmpjm27g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.misara.jagasehatnavbar",
+            "certificate_hash": "6066f5dc4fd822143b5fe99e40f3722aa53d1f43"
+          }
+        },
+        {
+          "client_id": "227516408826-fh7c64es3bplsfi9mm6dvfam3e89809n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1vRHVOQSoluVygKCMyRylQ2m-R2cjhDk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227516408826-fh7c64es3bplsfi9mm6dvfam3e89809n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

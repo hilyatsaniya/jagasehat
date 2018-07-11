@@ -1,0 +1,269 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.
+    com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.misara.jagasehatnavbar.DashboardFragment"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:foreground="?android:attr/selectableItemBackground"-->
+            <!--android:clickable="true"-->
+            <!--android:id="@+id/bankcardId"-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:layout_margin="10dp">-->
+
+            <LinearLayout
+                android:id="@+id/page1"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:onClick="onClickPage1">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/cerclebackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_boy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Halaman 1"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Aku Si Pemberani"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:foreground="?android:attr/selectableItemBackground"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:layout_margin="10dp">-->
+
+            <LinearLayout
+                android:id="@+id/page2"
+                android:layout_width="160dp"
+                android:layout_height="170dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:onClick="onClickPage2">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/cerclebackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_bird2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Halaman 2"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Pendekar Burung"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        <!--</android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:foreground="?android:attr/selectableItemBackground"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:layout_margin="10dp">-->
+
+            <LinearLayout
+                android:id="@+id/page3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:onClick="onClickPage3">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/cerclebackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_elephant" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Halaman 3"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Gajah Penyayang"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        <!--</android.support.v7.widget.CardView>-->
+
+        <!--<android.support.v7.widget.CardView-->
+            <!--android:foreground="?android:attr/selectableItemBackground"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:layout_margin="10dp">-->
+
+            <LinearLayout
+                android:id="@+id/page4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:onClick="onClickPage4">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/cerclebackground"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_girl" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tentang Aku"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Aku dan Harapanku"
+                    android:textColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+        <!--</android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:clipToPadding="false"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:foreground="?android:attr/selectableItemBackground"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_width="340dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_margin="10dp">-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+
+    <!--&lt;!&ndash;android:id="@+id/contact"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:orientation="vertical">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="60dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="60dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/cerclebackground"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@drawable/ic_contact" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Kontak"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<View&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/lightgray" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="Hubungi Kami"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="@android:color/darker_gray" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+    <!--</android.support.v7.widget.CardView>-->
+
+
+    <!--</LinearLayout>-->
+</LinearLayout>

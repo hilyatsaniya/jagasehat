@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.misara.jagasehatnavbar.Page3Fragment"
+    android:id="@+id/frame3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/frontelephant" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:text="prev"
+            android:layout_marginLeft="5dp"
+            android:onClick="onClickPrev2"
+            android:background="@color/button_color"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:text="Home"
+            android:id="@+id/home"
+            android:layout_marginLeft="85dp"
+            android:onClick="onClickHome"
+            android:background="@color/button_color"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:text="next"
+            android:layout_marginLeft="85dp"
+            android:onClick="onClickNext4"
+            android:background="@color/button_color"/>
+    </LinearLayout>
+
+</LinearLayout>
